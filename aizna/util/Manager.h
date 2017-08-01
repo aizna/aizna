@@ -9,6 +9,9 @@
 #include "Singleton.h"
 #include <map>
 
+namespace aizna
+{
+
 class Object
 {
 public:
@@ -126,4 +129,6 @@ inline void Manager<T>::Release(T* object)
 
 	int& index = *((int*)poolObject+2);
 	Release(index);
+}
+
 }

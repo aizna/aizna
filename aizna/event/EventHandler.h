@@ -9,6 +9,9 @@
 #include <string.h>
 #include <functional>
 
+namespace aizna
+{
+
 class IEventHandler
 {
 public:
@@ -106,3 +109,5 @@ public:
 private:
     std::function<void(const Event&)>    m_handler;
 };
+
+}

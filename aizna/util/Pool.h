@@ -10,6 +10,9 @@
 #include <map>
 #include <queue>
 
+namespace aizna
+{
+
 class PoolObject
 {
 public:
@@ -167,4 +170,6 @@ inline void Pool<T>::Release(T* object)
 
 	int& index = *((int*)poolObject+2);
 	Release(index);
+}
+
 }

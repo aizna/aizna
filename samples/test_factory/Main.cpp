@@ -8,8 +8,8 @@
 #include <util/Factory.h>
 #include <iostream>
 
-
 using namespace std;
+using namespace aizna;
 
 class Base
 {

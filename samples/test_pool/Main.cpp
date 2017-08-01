@@ -9,6 +9,7 @@
 #include <util/Pool.h>
 
 using namespace std;
+using namespace aizna;
 
 class Player : public PoolObject
 {

@@ -9,6 +9,7 @@
 #include <util/Manager.h>
 
 using namespace std;
+using namespace aizna;
 
 class Player : public Object
 {

@@ -9,6 +9,9 @@
 
 #include <map>
 
+namespace aizna
+{
+
 template <typename Product, typename AbstractProduct>
 AbstractProduct* FactoryCreator()
 {
@@ -48,4 +51,5 @@ private:
     CreatorFuncMap creatorFuncMap;     // 对象创建函数
 };
 
+}
 

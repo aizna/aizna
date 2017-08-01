@@ -6,6 +6,9 @@
  */
 #pragma once
 
+namespace aizna
+{
+
 template <typename T>
 class Singleton
 {
@@ -23,3 +26,4 @@ public:
 	}
 };
 
+}
