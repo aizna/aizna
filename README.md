@@ -1,10 +1,10 @@
 # aizna 
 
-linux c++ game server lib or framework.
-游戏服务器底层代码库开发
-QQ群：391490952
-论坛：http://aizna.com 
-源码：https://github.com/aizna/aizna
+	linux c++ game server lib or framework.
+	游戏服务器底层代码库开发
+	QQ群：391490952
+	论坛：http://aizna.com 
+	源码：https://github.com/aizna/aizna
 
 这是什么？
 
