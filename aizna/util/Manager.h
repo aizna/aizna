@@ -1,5 +1,5 @@
 /*
- * Manager.h
+ * Manager.h 简单管理器的实现，被管理的对象需要继承Object
  *
  *  Created on: 2017年3月2日
  *      Author: jcz
