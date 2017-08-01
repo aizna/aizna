@@ -39,7 +39,7 @@ public:
 
 protected:
     template <typename Product>
-    void RegisterProduct(int productType)
+    void Register(int productType)
     {
         creatorFuncMap[productType] = FactoryCreator<Product, AbstractProduct>;
     }

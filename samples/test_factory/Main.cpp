@@ -43,8 +43,8 @@ class F: public Factory<Base>, public Singleton<F>
 public:
 	F()
 	{
-		RegisterProduct<A>(1);
-		RegisterProduct<B>(2);
+		Register<A>(1);
+		Register<B>(2);
 	}
 };
 
